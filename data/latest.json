@@ -1,12 +1,6 @@
 {
   "appveyor": {
     "rates": {
-      "2020-08-10T22:35:00-04:00": 0,
-      "2020-08-10T22:40:00-04:00": 0,
-      "2020-08-10T22:45:00-04:00": 0,
-      "2020-08-10T22:50:00-04:00": 0,
-      "2020-08-10T22:55:00-04:00": 0,
-      "2020-08-10T23:00:00-04:00": 0,
       "2020-08-10T23:05:00-04:00": 0,
       "2020-08-10T23:10:00-04:00": 0,
       "2020-08-10T23:15:00-04:00": 0,
@@ -96,7 +90,13 @@
       "2020-08-11T06:15:00-04:00": 0,
       "2020-08-11T06:20:00-04:00": 0,
       "2020-08-11T06:25:00-04:00": 0,
-      "2020-08-11T06:30:00-04:00": 0
+      "2020-08-11T06:30:00-04:00": 0,
+      "2020-08-11T06:35:00-04:00": 0,
+      "2020-08-11T06:40:00-04:00": 0,
+      "2020-08-11T06:45:00-04:00": 0,
+      "2020-08-11T06:50:00-04:00": 0,
+      "2020-08-11T06:55:00-04:00": 0,
+      "2020-08-11T07:00:00-04:00": 0
     },
     "repos": {
       "conda-forge/aiopeewee-feedstock": 1,
@@ -232,12 +232,6 @@
   },
   "azure-pipelines": {
     "rates": {
-      "2020-08-10T22:35:00-04:00": 3,
-      "2020-08-10T22:40:00-04:00": 0,
-      "2020-08-10T22:45:00-04:00": 2,
-      "2020-08-10T22:50:00-04:00": 30,
-      "2020-08-10T22:55:00-04:00": 17,
-      "2020-08-10T23:00:00-04:00": 6,
       "2020-08-10T23:05:00-04:00": 0,
       "2020-08-10T23:10:00-04:00": 0,
       "2020-08-10T23:15:00-04:00": 0,
@@ -327,7 +321,13 @@
       "2020-08-11T06:15:00-04:00": 13,
       "2020-08-11T06:20:00-04:00": 5,
       "2020-08-11T06:25:00-04:00": 19,
-      "2020-08-11T06:30:00-04:00": 10
+      "2020-08-11T06:30:00-04:00": 23,
+      "2020-08-11T06:35:00-04:00": 3,
+      "2020-08-11T06:40:00-04:00": 6,
+      "2020-08-11T06:45:00-04:00": 1,
+      "2020-08-11T06:50:00-04:00": 3,
+      "2020-08-11T06:55:00-04:00": 0,
+      "2020-08-11T07:00:00-04:00": 0
     },
     "repos": {
       "conda-forge/adaptive-feedstock": 10,
@@ -370,7 +370,7 @@
       "conda-forge/google-cloud-monitoring-feedstock": 10,
       "conda-forge/gradle-feedstock": 3,
       "conda-forge/gtk3-feedstock": 15,
-      "conda-forge/gudhi-feedstock": 7,
+      "conda-forge/gudhi-feedstock": 12,
       "conda-forge/harfbuzz-feedstock": 4,
       "conda-forge/hdmf-feedstock": 4,
       "conda-forge/hrds-feedstock": 2,
@@ -445,7 +445,7 @@
       "conda-forge/smesh-feedstock": 40,
       "conda-forge/somoclu-feedstock": 7,
       "conda-forge/staged-recipes": 52,
-      "conda-forge/statsmodels-feedstock": 59,
+      "conda-forge/statsmodels-feedstock": 80,
       "conda-forge/superlu_dist-feedstock": 3,
       "conda-forge/terraform-feedstock": 8,
       "conda-forge/ticcutils-feedstock": 3,
@@ -459,16 +459,10 @@
       "conda-forge/wagtail-feedstock": 2,
       "conda-forge/yt-feedstock": 10
     },
-    "total": 830
+    "total": 798
   },
   "circleci": {
     "rates": {
-      "2020-08-10T22:35:00-04:00": 0,
-      "2020-08-10T22:40:00-04:00": 0,
-      "2020-08-10T22:45:00-04:00": 0,
-      "2020-08-10T22:50:00-04:00": 0,
-      "2020-08-10T22:55:00-04:00": 0,
-      "2020-08-10T23:00:00-04:00": 1,
       "2020-08-10T23:05:00-04:00": 0,
       "2020-08-10T23:10:00-04:00": 0,
       "2020-08-10T23:15:00-04:00": 0,
@@ -558,10 +552,16 @@
       "2020-08-11T06:15:00-04:00": 0,
       "2020-08-11T06:20:00-04:00": 0,
       "2020-08-11T06:25:00-04:00": 0,
-      "2020-08-11T06:30:00-04:00": 0
+      "2020-08-11T06:30:00-04:00": 0,
+      "2020-08-11T06:35:00-04:00": 0,
+      "2020-08-11T06:40:00-04:00": 0,
+      "2020-08-11T06:45:00-04:00": 0,
+      "2020-08-11T06:50:00-04:00": 1,
+      "2020-08-11T06:55:00-04:00": 0,
+      "2020-08-11T07:00:00-04:00": 0
     },
     "repos": {
-      "conda-forge/admin-migrations": 14,
+      "conda-forge/admin-migrations": 15,
       "conda-forge/aiopeewee-feedstock": 2,
       "conda-forge/clickhouse-sqlalchemy-feedstock": 2,
       "conda-forge/codacy-coverage-feedstock": 2,
@@ -694,12 +694,6 @@
   },
   "drone": {
     "rates": {
-      "2020-08-10T22:35:00-04:00": 0,
-      "2020-08-10T22:40:00-04:00": 0,
-      "2020-08-10T22:45:00-04:00": 0,
-      "2020-08-10T22:50:00-04:00": 0,
-      "2020-08-10T22:55:00-04:00": 0,
-      "2020-08-10T23:00:00-04:00": 0,
       "2020-08-10T23:05:00-04:00": 0,
       "2020-08-10T23:10:00-04:00": 0,
       "2020-08-10T23:15:00-04:00": 0,
@@ -789,7 +783,13 @@
       "2020-08-11T06:15:00-04:00": 0,
       "2020-08-11T06:20:00-04:00": 0,
       "2020-08-11T06:25:00-04:00": 0,
-      "2020-08-11T06:30:00-04:00": 0
+      "2020-08-11T06:30:00-04:00": 1,
+      "2020-08-11T06:35:00-04:00": 0,
+      "2020-08-11T06:40:00-04:00": 0,
+      "2020-08-11T06:45:00-04:00": 0,
+      "2020-08-11T06:50:00-04:00": 2,
+      "2020-08-11T06:55:00-04:00": 2,
+      "2020-08-11T07:00:00-04:00": 0
     },
     "repos": {
       "conda-forge/astropy-healpix-feedstock": 1,
@@ -865,7 +865,7 @@
       "conda-forge/spyder-kernels-feedstock": 17,
       "conda-forge/srsly-feedstock": 4,
       "conda-forge/stack-feedstock": 1,
-      "conda-forge/statsmodels-feedstock": 4,
+      "conda-forge/statsmodels-feedstock": 9,
       "conda-forge/suds-jurko-feedstock": 2,
       "conda-forge/suitesparse-feedstock": 9,
       "conda-forge/superlu-feedstock": 4,
@@ -921,16 +921,10 @@
       "conda-forge/zopfli-feedstock": 4,
       "conda-forge/zstandard-feedstock": 3
     },
-    "total": 14
+    "total": 19
   },
   "github-actions": {
     "rates": {
-      "2020-08-10T22:35:00-04:00": 1,
-      "2020-08-10T22:40:00-04:00": 0,
-      "2020-08-10T22:45:00-04:00": 5,
-      "2020-08-10T22:50:00-04:00": 10,
-      "2020-08-10T22:55:00-04:00": 3,
-      "2020-08-10T23:00:00-04:00": 6,
       "2020-08-10T23:05:00-04:00": 1,
       "2020-08-10T23:10:00-04:00": 0,
       "2020-08-10T23:15:00-04:00": 1,
@@ -1020,7 +1014,13 @@
       "2020-08-11T06:15:00-04:00": 1,
       "2020-08-11T06:20:00-04:00": 1,
       "2020-08-11T06:25:00-04:00": 10,
-      "2020-08-11T06:30:00-04:00": 0
+      "2020-08-11T06:30:00-04:00": 10,
+      "2020-08-11T06:35:00-04:00": 1,
+      "2020-08-11T06:40:00-04:00": 0,
+      "2020-08-11T06:45:00-04:00": 1,
+      "2020-08-11T06:50:00-04:00": 3,
+      "2020-08-11T06:55:00-04:00": 3,
+      "2020-08-11T07:00:00-04:00": 0
     },
     "repos": {
       "conda-forge/adaptive-feedstock": 1,
@@ -1061,7 +1061,7 @@
       "conda-forge/google-cloud-monitoring-feedstock": 2,
       "conda-forge/gradle-feedstock": 2,
       "conda-forge/gtk3-feedstock": 5,
-      "conda-forge/gudhi-feedstock": 1,
+      "conda-forge/gudhi-feedstock": 2,
       "conda-forge/harfbuzz-feedstock": 12,
       "conda-forge/hdmf-feedstock": 3,
       "conda-forge/hrds-feedstock": 2,
@@ -1138,7 +1138,7 @@
       "conda-forge/skater-feedstock": 2,
       "conda-forge/smesh-feedstock": 8,
       "conda-forge/somoclu-feedstock": 2,
-      "conda-forge/statsmodels-feedstock": 32,
+      "conda-forge/statsmodels-feedstock": 49,
       "conda-forge/superlu_dist-feedstock": 8,
       "conda-forge/terraform-feedstock": 2,
       "conda-forge/ticcutils-feedstock": 2,
@@ -1152,16 +1152,10 @@
       "conda-forge/wagtail-feedstock": 2,
       "conda-forge/yt-feedstock": 7
     },
-    "total": 353
+    "total": 346
   },
   "travis-ci": {
     "rates": {
-      "2020-08-10T22:35:00-04:00": 0,
-      "2020-08-10T22:40:00-04:00": 0,
-      "2020-08-10T22:45:00-04:00": 0,
-      "2020-08-10T22:50:00-04:00": 0,
-      "2020-08-10T22:55:00-04:00": 0,
-      "2020-08-10T23:00:00-04:00": 0,
       "2020-08-10T23:05:00-04:00": 0,
       "2020-08-10T23:10:00-04:00": 1,
       "2020-08-10T23:15:00-04:00": 0,
@@ -1251,7 +1245,13 @@
       "2020-08-11T06:15:00-04:00": 0,
       "2020-08-11T06:20:00-04:00": 0,
       "2020-08-11T06:25:00-04:00": 0,
-      "2020-08-11T06:30:00-04:00": 0
+      "2020-08-11T06:30:00-04:00": 1,
+      "2020-08-11T06:35:00-04:00": 0,
+      "2020-08-11T06:40:00-04:00": 0,
+      "2020-08-11T06:45:00-04:00": 1,
+      "2020-08-11T06:50:00-04:00": 0,
+      "2020-08-11T06:55:00-04:00": 1,
+      "2020-08-11T07:00:00-04:00": 0
     },
     "repos": {
       "conda-forge/aiopeewee-feedstock": 1,
@@ -1316,7 +1316,7 @@
       "conda-forge/srsly-feedstock": 8,
       "conda-forge/stack-feedstock": 1,
       "conda-forge/staged-recipes": 1409,
-      "conda-forge/statsmodels-feedstock": 5,
+      "conda-forge/statsmodels-feedstock": 8,
       "conda-forge/suds-jurko-feedstock": 3,
       "conda-forge/superlu-feedstock": 5,
       "conda-forge/superlu_dist-feedstock": 27,
@@ -1383,6 +1383,6 @@
       "conda-forge/zopfli-feedstock": 4,
       "conda-forge/zstandard-feedstock": 4
     },
-    "total": 27
+    "total": 30
   }
 }
