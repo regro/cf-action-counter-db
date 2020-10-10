@@ -1,12 +1,6 @@
 {
   "appveyor": {
     "rates": {
-      "2020-10-09T17:35:00-04:00": 0,
-      "2020-10-09T17:40:00-04:00": 0,
-      "2020-10-09T17:45:00-04:00": 0,
-      "2020-10-09T17:50:00-04:00": 0,
-      "2020-10-09T17:55:00-04:00": 0,
-      "2020-10-09T18:00:00-04:00": 0,
       "2020-10-09T18:05:00-04:00": 0,
       "2020-10-09T18:10:00-04:00": 0,
       "2020-10-09T18:15:00-04:00": 2,
@@ -96,7 +90,13 @@
       "2020-10-10T01:15:00-04:00": 0,
       "2020-10-10T01:20:00-04:00": 0,
       "2020-10-10T01:25:00-04:00": 0,
-      "2020-10-10T01:30:00-04:00": 0
+      "2020-10-10T01:30:00-04:00": 0,
+      "2020-10-10T01:35:00-04:00": 0,
+      "2020-10-10T01:40:00-04:00": 0,
+      "2020-10-10T01:45:00-04:00": 0,
+      "2020-10-10T01:50:00-04:00": 0,
+      "2020-10-10T01:55:00-04:00": 0,
+      "2020-10-10T02:00:00-04:00": 0
     },
     "repos": {
       "conda-forge/mdsplus-feedstock": 1,
@@ -232,12 +232,6 @@
   },
   "azure-pipelines": {
     "rates": {
-      "2020-10-09T17:35:00-04:00": 13,
-      "2020-10-09T17:40:00-04:00": 2,
-      "2020-10-09T17:45:00-04:00": 2,
-      "2020-10-09T17:50:00-04:00": 0,
-      "2020-10-09T17:55:00-04:00": 1,
-      "2020-10-09T18:00:00-04:00": 0,
       "2020-10-09T18:05:00-04:00": 0,
       "2020-10-09T18:10:00-04:00": 1,
       "2020-10-09T18:15:00-04:00": 0,
@@ -327,7 +321,13 @@
       "2020-10-10T01:15:00-04:00": 0,
       "2020-10-10T01:20:00-04:00": 0,
       "2020-10-10T01:25:00-04:00": 0,
-      "2020-10-10T01:30:00-04:00": 0
+      "2020-10-10T01:30:00-04:00": 0,
+      "2020-10-10T01:35:00-04:00": 42,
+      "2020-10-10T01:40:00-04:00": 28,
+      "2020-10-10T01:45:00-04:00": 0,
+      "2020-10-10T01:50:00-04:00": 0,
+      "2020-10-10T01:55:00-04:00": 5,
+      "2020-10-10T02:00:00-04:00": 0
     },
     "repos": {
       "conda-forge/absl-py-feedstock": 15,
@@ -356,6 +356,8 @@
       "conda-forge/h2-feedstock": 15,
       "conda-forge/hyp3lib-feedstock": 4,
       "conda-forge/infomap-feedstock": 6,
+      "conda-forge/jaraco.text-feedstock": 15,
+      "conda-forge/jsmin-feedstock": 15,
       "conda-forge/keepalive-feedstock": 30,
       "conda-forge/kombu-feedstock": 30,
       "conda-forge/lazy-object-proxy-feedstock": 30,
@@ -365,6 +367,7 @@
       "conda-forge/lief-feedstock": 5,
       "conda-forge/ligo-segments-feedstock": 13,
       "conda-forge/loguru-feedstock": 15,
+      "conda-forge/maturin-feedstock": 15,
       "conda-forge/mono-feedstock": 16,
       "conda-forge/mpich-feedstock": 10,
       "conda-forge/multiprocess-feedstock": 15,
@@ -375,7 +378,9 @@
       "conda-forge/path-feedstock": 13,
       "conda-forge/pathlib-feedstock": 30,
       "conda-forge/pathlib2-feedstock": 25,
+      "conda-forge/pies-feedstock": 15,
       "conda-forge/promise-feedstock": 15,
+      "conda-forge/protobuf3-to-dict-feedstock": 15,
       "conda-forge/pycifrw-feedstock": 15,
       "conda-forge/pycosat-feedstock": 34,
       "conda-forge/pycrypto-feedstock": 36,
@@ -389,12 +394,7 @@
       "conda-forge/python-levenshtein-feedstock": 26,
       "conda-forge/python-xxhash-feedstock": 30,
       "conda-forge/python3-openid-feedstock": 15,
-      "conda-forge/r-fields-feedstock": 14,
-      "conda-forge/r-fst-feedstock": 7,
-      "conda-forge/r-mco-feedstock": 21,
-      "conda-forge/r-metarnaseq-feedstock": 12,
       "conda-forge/r-sctransform-feedstock": 7,
-      "conda-forge/reacnetgenerator-feedstock": 10,
       "conda-forge/readme_renderer-feedstock": 2,
       "conda-forge/rebound-feedstock": 9,
       "conda-forge/regex-feedstock": 30,
@@ -459,16 +459,10 @@
       "conda-forge/yellowbrick-feedstock": 4,
       "conda-forge/zope.interface-feedstock": 42
     },
-    "total": 1197
+    "total": 1254
   },
   "circleci": {
     "rates": {
-      "2020-10-09T17:35:00-04:00": 0,
-      "2020-10-09T17:40:00-04:00": 0,
-      "2020-10-09T17:45:00-04:00": 0,
-      "2020-10-09T17:50:00-04:00": 1,
-      "2020-10-09T17:55:00-04:00": 0,
-      "2020-10-09T18:00:00-04:00": 0,
       "2020-10-09T18:05:00-04:00": 1,
       "2020-10-09T18:10:00-04:00": 0,
       "2020-10-09T18:15:00-04:00": 0,
@@ -558,7 +552,13 @@
       "2020-10-10T01:15:00-04:00": 1,
       "2020-10-10T01:20:00-04:00": 0,
       "2020-10-10T01:25:00-04:00": 1,
-      "2020-10-10T01:30:00-04:00": 0
+      "2020-10-10T01:30:00-04:00": 0,
+      "2020-10-10T01:35:00-04:00": 0,
+      "2020-10-10T01:40:00-04:00": 0,
+      "2020-10-10T01:45:00-04:00": 0,
+      "2020-10-10T01:50:00-04:00": 0,
+      "2020-10-10T01:55:00-04:00": 0,
+      "2020-10-10T02:00:00-04:00": 0
     },
     "repos": {
       "conda-forge/admin-migrations": 13,
@@ -690,16 +690,10 @@
       "conda-forge/xorg-xf86vidmodeproto-feedstock": 4,
       "conda-forge/xz-feedstock": 8
     },
-    "total": 17
+    "total": 16
   },
   "drone": {
     "rates": {
-      "2020-10-09T17:35:00-04:00": 2,
-      "2020-10-09T17:40:00-04:00": 0,
-      "2020-10-09T17:45:00-04:00": 0,
-      "2020-10-09T17:50:00-04:00": 0,
-      "2020-10-09T17:55:00-04:00": 0,
-      "2020-10-09T18:00:00-04:00": 0,
       "2020-10-09T18:05:00-04:00": 0,
       "2020-10-09T18:10:00-04:00": 0,
       "2020-10-09T18:15:00-04:00": 1,
@@ -789,7 +783,13 @@
       "2020-10-10T01:15:00-04:00": 0,
       "2020-10-10T01:20:00-04:00": 0,
       "2020-10-10T01:25:00-04:00": 0,
-      "2020-10-10T01:30:00-04:00": 0
+      "2020-10-10T01:30:00-04:00": 0,
+      "2020-10-10T01:35:00-04:00": 0,
+      "2020-10-10T01:40:00-04:00": 0,
+      "2020-10-10T01:45:00-04:00": 0,
+      "2020-10-10T01:50:00-04:00": 0,
+      "2020-10-10T01:55:00-04:00": 0,
+      "2020-10-10T02:00:00-04:00": 0
     },
     "repos": {
       "conda-forge/arrow-cpp-feedstock": 1,
@@ -921,16 +921,10 @@
       "conda-forge/zstandard-feedstock": 3,
       "conda-forge/zziplib-feedstock": 2
     },
-    "total": 28
+    "total": 26
   },
   "github-actions": {
     "rates": {
-      "2020-10-09T17:35:00-04:00": 5,
-      "2020-10-09T17:40:00-04:00": 3,
-      "2020-10-09T17:45:00-04:00": 2,
-      "2020-10-09T17:50:00-04:00": 1,
-      "2020-10-09T17:55:00-04:00": 0,
-      "2020-10-09T18:00:00-04:00": 1,
       "2020-10-09T18:05:00-04:00": 0,
       "2020-10-09T18:10:00-04:00": 2,
       "2020-10-09T18:15:00-04:00": 24,
@@ -1020,7 +1014,13 @@
       "2020-10-10T01:15:00-04:00": 1,
       "2020-10-10T01:20:00-04:00": 0,
       "2020-10-10T01:25:00-04:00": 1,
-      "2020-10-10T01:30:00-04:00": 0
+      "2020-10-10T01:30:00-04:00": 5,
+      "2020-10-10T01:35:00-04:00": 1,
+      "2020-10-10T01:40:00-04:00": 5,
+      "2020-10-10T01:45:00-04:00": 1,
+      "2020-10-10T01:50:00-04:00": 0,
+      "2020-10-10T01:55:00-04:00": 3,
+      "2020-10-10T02:00:00-04:00": 0
     },
     "repos": {
       "conda-forge/absl-py-feedstock": 1,
@@ -1042,7 +1042,7 @@
       "conda-forge/cheetah3-feedstock": 11,
       "conda-forge/cliche-feedstock": 4,
       "conda-forge/colorlog-feedstock": 3,
-      "conda-forge/conda-forge-lockfiles": 42,
+      "conda-forge/conda-forge-lockfiles": 47,
       "conda-forge/enum-compat-feedstock": 4,
       "conda-forge/enum34-feedstock": 2,
       "conda-forge/esmf-feedstock": 1,
@@ -1052,6 +1052,8 @@
       "conda-forge/greenlet-feedstock": 11,
       "conda-forge/h2-feedstock": 5,
       "conda-forge/hyp3lib-feedstock": 3,
+      "conda-forge/jaraco.text-feedstock": 2,
+      "conda-forge/jsmin-feedstock": 2,
       "conda-forge/keepalive-feedstock": 3,
       "conda-forge/kombu-feedstock": 3,
       "conda-forge/lazy-object-proxy-feedstock": 9,
@@ -1061,6 +1063,7 @@
       "conda-forge/lief-feedstock": 10,
       "conda-forge/ligo-segments-feedstock": 2,
       "conda-forge/loguru-feedstock": 12,
+      "conda-forge/maturin-feedstock": 1,
       "conda-forge/mono-feedstock": 5,
       "conda-forge/mpich-feedstock": 9,
       "conda-forge/multiprocess-feedstock": 6,
@@ -1075,7 +1078,9 @@
       "conda-forge/path-feedstock": 6,
       "conda-forge/pathlib-feedstock": 11,
       "conda-forge/pathlib2-feedstock": 2,
+      "conda-forge/pies-feedstock": 2,
       "conda-forge/promise-feedstock": 2,
+      "conda-forge/protobuf3-to-dict-feedstock": 2,
       "conda-forge/pycifrw-feedstock": 2,
       "conda-forge/pycosat-feedstock": 9,
       "conda-forge/pycrypto-feedstock": 4,
@@ -1089,15 +1094,10 @@
       "conda-forge/python-levenshtein-feedstock": 12,
       "conda-forge/python-xxhash-feedstock": 10,
       "conda-forge/python3-openid-feedstock": 6,
+      "conda-forge/r-drake-feedstock": 1,
       "conda-forge/r-sctransform-feedstock": 2,
       "conda-forge/readme_renderer-feedstock": 2,
-      "conda-forge/rebound-feedstock": 2,
-      "conda-forge/regex-feedstock": 11,
-      "conda-forge/rhumba-feedstock": 6,
-      "conda-forge/rpy2-feedstock": 6,
-      "conda-forge/rtree-feedstock": 2,
       "conda-forge/ruamel.yaml-feedstock": 6,
-      "conda-forge/ruamel.yaml.clib-feedstock": 24,
       "conda-forge/scandir-feedstock": 2,
       "conda-forge/schwimmbad-feedstock": 3,
       "conda-forge/scons-feedstock": 11,
@@ -1152,16 +1152,10 @@
       "conda-forge/yellowbrick-feedstock": 3,
       "conda-forge/zope.interface-feedstock": 3
     },
-    "total": 368
+    "total": 371
   },
   "travis-ci": {
     "rates": {
-      "2020-10-09T17:35:00-04:00": 1,
-      "2020-10-09T17:40:00-04:00": 1,
-      "2020-10-09T17:45:00-04:00": 1,
-      "2020-10-09T17:50:00-04:00": 1,
-      "2020-10-09T17:55:00-04:00": 0,
-      "2020-10-09T18:00:00-04:00": 1,
       "2020-10-09T18:05:00-04:00": 0,
       "2020-10-09T18:10:00-04:00": 0,
       "2020-10-09T18:15:00-04:00": 1,
@@ -1251,7 +1245,13 @@
       "2020-10-10T01:15:00-04:00": 0,
       "2020-10-10T01:20:00-04:00": 0,
       "2020-10-10T01:25:00-04:00": 0,
-      "2020-10-10T01:30:00-04:00": 0
+      "2020-10-10T01:30:00-04:00": 0,
+      "2020-10-10T01:35:00-04:00": 0,
+      "2020-10-10T01:40:00-04:00": 0,
+      "2020-10-10T01:45:00-04:00": 0,
+      "2020-10-10T01:50:00-04:00": 0,
+      "2020-10-10T01:55:00-04:00": 0,
+      "2020-10-10T02:00:00-04:00": 0
     },
     "repos": {
       "conda-forge/antlr-python-runtime-feedstock": 1,
@@ -1383,6 +1383,6 @@
       "conda-forge/zstandard-feedstock": 4,
       "conda-forge/zziplib-feedstock": 4
     },
-    "total": 40
+    "total": 35
   }
 }
